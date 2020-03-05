@@ -1,7 +1,8 @@
 class AuthManager {
 
     constructor() {
-        this.db = new db_manager();
+        //Vai haver banco para o autenticador?
+        //this.db = new db_manager();
     }
 
     validateToken(token) {
